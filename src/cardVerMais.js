@@ -56,6 +56,7 @@ export function cardVerMais() {
                         <p class="text-green-400 font-bold text-lg">R$${produtosCatalogo.preco}</p>
                         <button
                           class="bg-green-800 px-2 py-1 rounded-lg shadow-md shadow-zinc-900 hover:shadow-none"
+                          id="botao-whats-ver-mais"
                         >
                           Entrar em contato
                           <i class="fa-brands fa-whatsapp text-green-400"></i>

@@ -154,3 +154,31 @@ export function mudarFoto() {
     }
   }
 }
+
+export function chamarNoWhats() {
+  const botaoWhats = document.getElementById("botao-whats");
+  const botaoWhatsVerMais = document.getElementById("botao-whats-ver-mais");
+
+  botaoWhats.addEventListener("click", () => {
+    const mensagem = encodeURIComponent(
+      "Olá, gostaira de ser atendido por um especialista."
+    );
+    const fone = "5551993629999";
+
+    window.open(`https://wa.me/${fone}?text=${mensagem}`, "_blank");
+  });
+
+  botaoWhatsVerMais.addEventListener("click", () => {
+    for (const imovelCatalogo of catalogo) {
+      if (lerLocalStorage("imovel") === imovelCatalogo.id) {
+        const mensagem = encodeURIComponent(
+          `Olá, gostaira de mais informações sobre o imóvel - ${imovelCatalogo.nome}.`
+        );
+
+        const fone = "5551993629999";
+
+        window.open(`https://wa.me/${fone}?text=${mensagem}`, "_blank");
+      }
+    }
+  });
+}

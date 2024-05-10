@@ -1,5 +1,6 @@
 import { cardVerMais } from "./src/cardVerMais";
-import { mudarFoto } from "./src/utilidades";
+import { chamarNoWhats, mudarFoto } from "./src/utilidades";
 
 cardVerMais();
 mudarFoto();
+chamarNoWhats();
