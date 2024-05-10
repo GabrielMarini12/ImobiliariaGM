@@ -11,7 +11,7 @@ export function criarProdutos() {
               <img
               src="./assets/${produtosCatalogo.imagem}"
               alt="${produtosCatalogo.nome}"
-              class="mb-4 shadow-zinc-950 shadow-lg rounded-lg group-hover:scale-105 duration-300 w-full h-[265px]"
+              class="mb-4 shadow-zinc-950 shadow-lg rounded-lg group-hover:scale-105 duration-300 w-full h-[280px]"
               />
             </div>
             <div class="flex justify-between">

@@ -54,13 +54,13 @@ export function cardVerMais() {
       <img
         src="./assets/${produtosCatalogo.imagem}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] h-[200px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-principal-1-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem2}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] h-[200px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-secundaria-${produtosCatalogo.id}"
       />
       <img
