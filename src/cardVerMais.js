@@ -29,6 +29,28 @@ export function cardVerMais() {
                       <p class="opacity-90">
                         ${produtosCatalogo.descricaoCompleta}
                       </p>
+                      
+                      <div class="flex justify-between">
+                        <div class="flex gap-2 items-center">
+                          <i class="fa-solid fa-bed text-orange-400"></i>
+                          <p>${produtosCatalogo.quarto} quartos</p>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                          <i class="fa-solid fa-car text-orange-400"></i>
+                          <p>${produtosCatalogo.vagas} vagas</p>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                          <i class="fa-solid fa-bath text-orange-400"></i>
+                          <p>${produtosCatalogo.banheiro} banheiros</p>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                          <i class="fa-solid fa-up-down-left-right text-orange-400"></i>
+                          <p>${produtosCatalogo.metros}m²</p>
+                        </div>
+                      </div>
           
                       <div class="flex justify-between">
                         <p class="text-green-400 font-bold text-lg">R$${produtosCatalogo.preco}</p>

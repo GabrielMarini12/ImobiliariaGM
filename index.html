@@ -38,10 +38,52 @@
         _______________________________________
       </p>
 
-      <div class="flex mt-10 gap-3 justify-center uppercase font-bold">
-        <p class="cursor-pointer hover:underline">Todos</p>
-        <p class="cursor-pointer hover:underline">Casas</p>
-        <p class="cursor-pointer hover:underline">Apartamentos</p>
+      <div
+        id="filtros"
+        class="flex mt-10 gap-3 justify-center uppercase font-bold"
+      >
+        <div>
+          <input
+            type="radio"
+            id="mostrar-todos"
+            class="peer hidden"
+            name="filtro"
+            checked
+          />
+          <label
+            for="mostrar-todos"
+            class="peer-checked:underline decoration-orange-400 cursor-pointer select-none"
+            >Todos</label
+          >
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="mostrar-casas"
+            class="peer hidden"
+            name="filtro"
+          />
+          <label
+            for="mostrar-casas"
+            class="peer-checked:underline decoration-orange-400 cursor-pointer select-none"
+            >Casas</label
+          >
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            id="mostrar-apartamentos"
+            class="peer hidden"
+            name="filtro"
+          />
+          <label
+            for="mostrar-apartamentos"
+            class="peer-checked:underline decoration-orange-400 cursor-pointer select-none"
+            >Apartamentos</label
+          >
+        </div>
       </div>
 
       <section

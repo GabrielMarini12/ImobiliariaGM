@@ -12,6 +12,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "casa",
+    quarto: "3",
+    vagas: "2",
+    banheiro: "4",
+    metros: "123",
   },
   {
     id: "2",
@@ -26,6 +30,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "casa",
+    quarto: "2",
+    vagas: "2",
+    banheiro: "2",
+    metros: "96",
   },
   {
     id: "3",
@@ -40,6 +48,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "apartamento",
+    quarto: "2",
+    vagas: "1",
+    banheiro: "2",
+    metros: "88",
   },
   {
     id: "4",
@@ -54,6 +66,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "apartamento",
+    quarto: "3",
+    vagas: "1",
+    banheiro: "3",
+    metros: "116",
   },
   {
     id: "5",
@@ -68,6 +84,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "casa",
+    quarto: "2",
+    vagas: "2",
+    banheiro: "2",
+    metros: "99",
   },
   {
     id: "6",
@@ -82,6 +102,10 @@ export const catalogo = [
     descricaoCompleta:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, rerum eum! Itaque ea dicta recusandae sint nam accusamus, aliquamassumenda velit, voluptatem soluta quaerat magnam distinctio minusnisi maiores! Minus labore non cupiditate adipisci nam suscipit recusandae aliquam magni optio. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui, atdignissimos accusantium veniam inventore neque exercitationem impedit quia voluptatibus!",
     imovel: "casa",
+    quarto: "4",
+    vagas: "2",
+    banheiro: "4",
+    metros: "126",
   },
 ];
 

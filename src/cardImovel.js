@@ -4,7 +4,7 @@ export function criarProdutos() {
   for (const produtosCatalogo of catalogo) {
     const produto = `
           <div
-            class="flex flex-col w-full py-4 px-5 bg-zinc-500 rounded-lg group shadow-md shadow-zinc-900"
+            class="flex flex-col w-full py-4 px-5 bg-zinc-500 rounded-lg group shadow-md shadow-zinc-900 ${produtosCatalogo.imovel}"
             id="card-imovel-${produtosCatalogo.id}"
           >
             <div class="mb-4">
