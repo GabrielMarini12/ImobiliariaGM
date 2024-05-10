@@ -31,7 +31,7 @@ export function cardVerMais() {
                       </p>
           
                       <div class="flex justify-between">
-                        <p class="text-green-400 font-bold">R$${produtosCatalogo.preco}</p>
+                        <p class="text-green-400 font-bold text-lg">R$${produtosCatalogo.preco}</p>
                         <button
                           class="bg-green-800 px-2 py-1 rounded-lg shadow-md shadow-zinc-900 hover:shadow-none"
                         >

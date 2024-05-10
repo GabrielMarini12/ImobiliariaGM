@@ -1,4 +1,4 @@
-import { catalogo, salvarLocalStorage, lerLocalStorage } from "./utilidades";
+import { catalogo, salvarLocalStorage } from "./utilidades";
 
 export function criarProdutos() {
   for (const produtosCatalogo of catalogo) {
@@ -25,7 +25,7 @@ export function criarProdutos() {
             <p class="text-sm w-2/3 py-2 text-slate-200 opacity-80">
               ${produtosCatalogo.descricao}
               </p>
-              <p class="text-sm text-green-400 font-bold">R$${produtosCatalogo.preco}</p>
+              <p class="text-md text-green-400 font-bold">R$${produtosCatalogo.preco}</p>
           </div>
           `;
 
