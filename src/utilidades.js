@@ -92,3 +92,41 @@ export function salvarLocalStorage(chave, informacao) {
 export function lerLocalStorage(chave) {
   return JSON.parse(localStorage.getItem(chave));
 }
+
+export function mudarFoto() {
+  for (const produtosCatalogo of catalogo) {
+    if (lerLocalStorage("imovel") === produtosCatalogo.id) {
+      const imagemPrincipal = document.getElementById(
+        `imagem-principal-${produtosCatalogo.id}`
+      );
+      const imagemPrincipal1 = document.getElementById(
+        `imagem-principal-1-${produtosCatalogo.id}`
+      );
+      const imagemSecundaria = document.getElementById(
+        `imagem-secundaria-${produtosCatalogo.id}`
+      );
+      const imagemTerciaria = document.getElementById(
+        `imagem-terciaria-${produtosCatalogo.id}`
+      );
+      const imageQuartenaria = document.getElementById(
+        `imagem-quartenaria-${produtosCatalogo.id}`
+      );
+
+      imagemPrincipal1.addEventListener("click", () => {
+        imagemPrincipal.src = imagemPrincipal1.src;
+      });
+
+      imagemSecundaria.addEventListener("click", () => {
+        imagemPrincipal.src = imagemSecundaria.src;
+      });
+
+      imagemTerciaria.addEventListener("click", () => {
+        imagemPrincipal.src = imagemTerciaria.src;
+      });
+
+      imageQuartenaria.addEventListener("click", () => {
+        imagemPrincipal.src = imageQuartenaria.src;
+      });
+    }
+  }
+}

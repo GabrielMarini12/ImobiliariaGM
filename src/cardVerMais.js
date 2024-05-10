@@ -15,7 +15,8 @@ export function cardVerMais() {
                     <img
                       src="./assets/${produtosCatalogo.imagem}"
                       alt="${produtosCatalogo.nome}"
-                      class="w-[730px] min-w-[730px] max-w-[730px] h-[600px] min-h-[600px] max-h-[600px] rounded-lg mr-8 shadow-md shadow-zinc-900"
+                      class="w-[735px] min-w-[735px] max-w-[735px] h-[600px] min-h-[600px] max-h-[600px] rounded-lg mr-8 shadow-md shadow-zinc-900"
+                      id="imagem-principal-${produtosCatalogo.id}"
                     />
                     <div class="flex flex-col justify-between">
                       <div class="flex flex-col">
@@ -51,19 +52,28 @@ export function cardVerMais() {
 
       const cardImovelSecundario = `
       <img
+        src="./assets/${produtosCatalogo.imagem}"
+          alt="${produtosCatalogo.nome}"
+          class="w-[175px] min-w-[175px] max-w-[175px] h-[200px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          id="imagem-principal-1-${produtosCatalogo.id}"
+      />
+      <img
         src="./assets/${produtosCatalogo.imagem2}"
           alt="${produtosCatalogo.nome}"
-          class="w-[235px] min-w-[235px] max-w-[235px] h-[200px] rounded-lg cursor-pointer shadow-md shadow-zinc-900"
+          class="w-[175px] min-w-[175px] max-w-[175px] h-[200px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          id="imagem-secundaria-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem3}"
           alt="${produtosCatalogo.nome}"
-          class="w-[235px] min-w-[235px] max-w-[235px] rounded-lg cursor-pointer shadow-md shadow-zinc-900"
+          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          id="imagem-terciaria-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem4}"
           alt="${produtosCatalogo.nome}"
-          class="w-[235px] min-w-[235px] max-w-[235px] rounded-lg cursor-pointer shadow-md shadow-zinc-900"
+          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          id="imagem-quartenaria-${produtosCatalogo.id}"
       />
       `;
 
