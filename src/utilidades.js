@@ -16,6 +16,7 @@ export const catalogo = [
     vagas: "2",
     banheiro: "4",
     metros: "123",
+    curtida: false,
   },
   {
     id: "2",
@@ -34,6 +35,7 @@ export const catalogo = [
     vagas: "2",
     banheiro: "2",
     metros: "96",
+    curtida: false,
   },
   {
     id: "3",
@@ -52,6 +54,7 @@ export const catalogo = [
     vagas: "1",
     banheiro: "2",
     metros: "88",
+    curtida: false,
   },
   {
     id: "4",
@@ -70,6 +73,7 @@ export const catalogo = [
     vagas: "1",
     banheiro: "3",
     metros: "116",
+    curtida: false,
   },
   {
     id: "5",
@@ -88,6 +92,7 @@ export const catalogo = [
     vagas: "2",
     banheiro: "2",
     metros: "99",
+    curtida: false,
   },
   {
     id: "6",
@@ -106,6 +111,7 @@ export const catalogo = [
     vagas: "2",
     banheiro: "4",
     metros: "126",
+    curtida: false,
   },
 ];
 
@@ -180,5 +186,13 @@ export function chamarNoWhats() {
         window.open(`https://wa.me/${fone}?text=${mensagem}`, "_blank");
       }
     }
+  });
+}
+
+export function irParaFavoritos() {
+  const botaoFavoritos = document.getElementById("botao-favoritos");
+
+  botaoFavoritos.addEventListener("click", () => {
+    window.location.href = "../favoritos.html";
   });
 }

@@ -1,7 +1,10 @@
 import { criarProdutos } from "./src/cardImovel";
+import { pegarCurtida } from "./src/curtida";
 import { iniciarFiltros } from "./src/filtrosCatalogo";
-import { chamarNoWhats } from "./src/utilidades";
+import { chamarNoWhats, irParaFavoritos } from "./src/utilidades";
 
 criarProdutos();
 iniciarFiltros();
+pegarCurtida();
+irParaFavoritos();
 chamarNoWhats();

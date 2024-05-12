@@ -24,8 +24,13 @@ export function criarProdutos() {
             </div>
             <p class="text-sm w-2/3 py-2 text-slate-200 opacity-80">
               ${produtosCatalogo.descricao}
-              </p>
+            </p>
+            <div class="flex justify-between">
               <p class="text-md text-green-400 font-bold">R$${produtosCatalogo.preco}</p>
+              <button id="curtida-${produtosCatalogo.id}" class="hover:text-red-200 duration-200">
+                <i class="fa-solid fa-heart cursor-pointer pr-2 ${produtosCatalogo.curtida}"></i>
+              </button>
+            </div>
           </div>
           `;
 
