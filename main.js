@@ -5,6 +5,6 @@ import { chamarNoWhats, irParaFavoritos } from "./src/utilidades";
 
 criarProdutos();
 iniciarFiltros();
-pegarCurtida();
 irParaFavoritos();
+pegarCurtida();
 chamarNoWhats();

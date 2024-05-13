@@ -191,8 +191,19 @@ export function chamarNoWhats() {
 
 export function irParaFavoritos() {
   const botaoFavoritos = document.getElementById("botao-favoritos");
-
+  const containerProdutos = document.getElementById("container-produtos");
+  const containerProdutosVerMais = document.getElementById(
+    "container-produto-ver-mais"
+  );
   botaoFavoritos.addEventListener("click", () => {
-    window.location.href = "../favoritos.html";
+    if (
+      !lerLocalStorage("idfavorito") ||
+      lerLocalStorage("idfavorito") === "[]"
+    ) {
+      alert("Você não tem nenhum imóvel adicionado aos favoritos.");
+      return;
+    } else {
+      window.location.href = "../favoritos.html";
+    }
   });
 }

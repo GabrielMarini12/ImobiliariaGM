@@ -28,7 +28,7 @@ export function criarProdutos() {
             <div class="flex justify-between">
               <p class="text-md text-green-400 font-bold">R$${produtosCatalogo.preco}</p>
               <button id="curtida-${produtosCatalogo.id}" class="hover:text-red-200 duration-200">
-                <i class="fa-solid fa-heart cursor-pointer pr-2 ${produtosCatalogo.curtida}"></i>
+                <i class="fa-solid fa-heart cursor-pointer pr-2 "></i>
               </button>
             </div>
           </div>
