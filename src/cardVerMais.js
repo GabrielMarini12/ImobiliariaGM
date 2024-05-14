@@ -15,22 +15,22 @@ export function cardVerMais() {
                     <img
                       src="./assets/${produtosCatalogo.imagem}"
                       alt="${produtosCatalogo.nome}"
-                      class="w-[735px] min-w-[735px] max-w-[735px] h-[600px] min-h-[600px] max-h-[600px] rounded-lg mr-8 shadow-md shadow-zinc-900"
+                      class="w-[735px]  h-[600px] lg:max-xl:w-[500px] lg:max-xl:h-[450px] md:max-lg:w-[390px] md:max-lg:h-[360px] rounded-lg mr-8 md:max-lg:mr-4 shadow-md shadow-zinc-900"
                       id="imagem-principal-${produtosCatalogo.id}"
                     />
                     <div class="flex flex-col justify-between">
                       <div class="flex flex-col">
-                        <p class="text-3xl font-bold uppercase">${produtosCatalogo.nome}</p>
+                        <p class="text-3xl font-bold uppercase md:max-lg:text-xl">${produtosCatalogo.nome}</p>
                         <p class="text-orange-400">
                           ______________________________________
                         </p>
                       </div>
           
-                      <p class="opacity-90">
+                      <p class="opacity-90 lg:max-xl:text-sm md:max-lg:text-sm">
                         ${produtosCatalogo.descricaoCompleta}
                       </p>
                       
-                      <div class="flex justify-between">
+                      <div class="flex justify-between lg:max-xl:text-sm md:max-lg:text-sm ">
                         <div class="flex gap-2 items-center">
                           <i class="fa-solid fa-bed text-orange-400"></i>
                           <p>${produtosCatalogo.quarto} quartos</p>
@@ -71,31 +71,32 @@ export function cardVerMais() {
       const elementoImovelSecundario = document.createElement("div");
       elementoImovelSecundario.classList.add("flex");
       elementoImovelSecundario.classList.add("gap-3");
+      elementoImovelSecundario.classList.add("md:max-lg:gap-1");
       elementoImovelSecundario.classList.add("mt-2");
 
       const cardImovelSecundario = `
       <img
         src="./assets/${produtosCatalogo.imagem}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] lg:max-xl:w-[117px] lg:max-xl:h-[117px] md:max-lg:w-[95px] md:max-lg:h-[95px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-principal-1-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem2}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] lg:max-xl:w-[117px] lg:max-xl:h-[117px] md:max-lg:w-[95px] md:max-lg:h-[95px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-secundaria-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem3}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] lg:max-xl:w-[117px] lg:max-xl:h-[117px] md:max-lg:w-[95px] md:max-lg:h-[95px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-terciaria-${produtosCatalogo.id}"
       />
       <img
         src="./assets/${produtosCatalogo.imagem4}"
           alt="${produtosCatalogo.nome}"
-          class="w-[175px] min-w-[175px] max-w-[175px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
+          class="w-[175px] lg:max-xl:w-[117px] lg:max-xl:h-[117px] md:max-lg:w-[95px] md:max-lg:h-[95px] rounded-lg cursor-pointer shadow-md shadow-zinc-900 opacity-30 hover:opacity-50"
           id="imagem-quartenaria-${produtosCatalogo.id}"
       />
       `;
