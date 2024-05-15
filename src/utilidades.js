@@ -200,7 +200,7 @@ export function irParaFavoritos() {
       alert("Você não tem nenhum imóvel adicionado aos favoritos.");
       return;
     } else {
-      window.location.href = "/favoritos.html";
+      window.location.href = "./favoritos.html";
     }
   });
 }
