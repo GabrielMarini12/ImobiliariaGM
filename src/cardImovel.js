@@ -40,7 +40,7 @@ export function criarProdutos() {
   for (const produtosCatalogo of catalogo) {
     function irParaPaginaVerMais() {
       salvarLocalStorage("imovel", `${produtosCatalogo.id}`);
-      window.location.href = "./verMais.html";
+      window.location.href = "/verMais.html";
     }
     document
       .getElementById(`ver-mais-produto-${produtosCatalogo.id}`)
